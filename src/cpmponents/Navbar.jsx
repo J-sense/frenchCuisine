@@ -31,9 +31,9 @@ const Navbar = () => {
         visible:{opacity :1, y:0,
         }}
         const LINKS = [
-          { id: "projects", name: "projects" },
-          { id: "about", name: "about" },
-          { id: "experience", name: "experience" },
+          { id: "projects", name: "Home" },
+          { id: "about", name: "Lates" },
+          { id: "experience", name: "Available" },
           { id: "contact", name: "Contact" },
         ];
     return (
