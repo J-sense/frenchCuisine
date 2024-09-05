@@ -1,10 +1,10 @@
 
 
 import './App.css'
-import HeroSection from './cpmponents/Herosection'
-import Navbar from './cpmponents/Navbar'
-import Latestmeal from './cpmponents/Latestmeal'
-import AvailableMeal from './cpmponents/AvailableMeal'
+import HeroSection from './components/Herosection'
+import Navbar from './components/Navbar'
+import Latestmeal from './components/Latestmeal'
+import AvailableMeal from './components/AvailableMeal'
 
 function App() {
  
