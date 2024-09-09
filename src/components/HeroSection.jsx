@@ -1,10 +1,12 @@
 import React from 'react';
 import video from "../assets/hero.mp4";
+import AvailableMeal from './AvailableMeal';
 // import logo from "../assets/logo.png";
 // import { motion } from "framer-motion";
 
 const HeroSection = () => {
     return (
+        <>
         <div className='relative flex  items-center justify-center'>
             <div className='absolute inset-0 -z-20 h-full w-full overflow-hidden'>
                 <video
@@ -29,6 +31,8 @@ const HeroSection = () => {
                 <p className='text-sm  tracking-wide text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magni velit, .</p>
             </div>
         </div>
+        <AvailableMeal />
+        </>
     );
 };
 

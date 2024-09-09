@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const AvailableMeal = () => {
   const [avialable, setAvailable] = useState([]);
@@ -41,7 +42,8 @@ const AvailableMeal = () => {
                 </h3>
                 <p className="text-sm text-slate-300">{meal.strMeal}</p>
                 <button className="font-serif border border-lime-200 px-3 rounded-md py-2 text-slate-200">
-                  View details
+               <Link to={`/details/${meal.idMeal}`} state={meal}>
+               View details</Link>
                 </button>
               </div>
             </div>
